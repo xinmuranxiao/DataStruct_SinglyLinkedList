@@ -3,5 +3,5 @@
 
 typedef struct {
 	int Data;
-	SinglyLinked* next;
-}SinglyLinked;
+	SinglyLinkedNode* next;
+}SinglyLinkedNode;
