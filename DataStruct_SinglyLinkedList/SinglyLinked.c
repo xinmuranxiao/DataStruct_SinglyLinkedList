@@ -70,6 +70,7 @@ int getLengthSinglyLinked(SinglyLinkedNode* ptr) {
 	int length = 0;
 	while (ptr != NULL) {
 		length++;
+		ptr = ptr->next;
 	}
 	return length;
 }
