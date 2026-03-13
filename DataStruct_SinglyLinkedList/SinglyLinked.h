@@ -1,6 +1,11 @@
 #pragma once
 #include<stdio.h>
 
+//1执行正确
+//-1不合法
+//-2内存申请失败
+//-3不存在
+
 typedef struct SinglyLinkedNode {
 	int Data;
 	struct SinglyLinkedNode* next;
